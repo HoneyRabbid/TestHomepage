@@ -1,10 +1,15 @@
-body {
-  background-color: blue;
-}
 
 h1 {
-  color: white;
+  color: black;
 }
 p {
-  color: white;
+  color: black;
 }
+
+  a {
+      color: green;
+  }
+  body {
+    background-color: white;
+  }
+  
