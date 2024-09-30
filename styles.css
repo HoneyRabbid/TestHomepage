@@ -3,21 +3,138 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 10px 20px; /* Adds padding inside the nav */
+    background-color: #726e6e;
     color: #fff;
+    font-size: large;
+    font-weight: lighter;
+    width: 100vw; /* Full width of the viewport */
+    position: relative;
+    left: 50%; /* Adjust for centering */
+    transform: translateX(-50%); /* Center the nav bar */
+    box-sizing: border-box; /* Ensure padding doesn't exceed width */
+    border-top-left-radius: 8px; /* Round the top-left corner */
+    border-top-right-radius: 8px; /* Round the top-right corner */
+    border-bottom-left-radius: 0 !important;  /* Sharp bottom-left corner */
+    border-bottom-right-radius: 0 !important;  /* Sharp bottom-right corner */
+    
 }
 
 .nav-left {
-    font-weight: bold;
+    display: flex;
+    font-size: 20px; /* Example: Set the font size to 20 pixels */
+    align-items: center; /* Vertically aligns the logo with other elements */
 }
 
 .nav-right {
     display: flex;
+    font-size: 20px; /* Example: Set the font size to 20 pixels */
 }
 
 .nav-right a {
-    color: #fff;
+    color: #fff; /* Orange links in navigation */
     margin-left: 20px;
     text-decoration: none;
+    
 }
+
+.nav-right a:hover {
+    color: #fff;; /* Darker orange on hover */
+    text-decoration: underline;
+}
+
+body {
+    background-color: #cdddb4; /* Change this to the color you prefer */
+    padding-bottom: 60px; /* Adds space at the bottom of the page */
+}
+
+
+h1 {
+    font-size: 2.5em; /* Change this to your preferred size */
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+
+.content {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px 0; /* Only vertical margin (top and bottom) */
+    width: 100vw; /* Full width of the viewport */
+    position: relative; /* Ensures positioning relative to the viewport */
+    left: 50%; /* Adjusts for padding */
+    transform: translateX(-50%); /* Centers the container */
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensures padding doesn't exceed width */
+}
+
+.content p {
+    font-size: 1 em; /* Larger text for the heading inside <p> */
+    font-weight: normal; /* Makes the text bold */
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+.content ul {
+    list-style-type: disc; /* Use a disc for the list bullets */
+    padding-left: 20px; /* Indents the list */
+}
+
+.content li {
+    margin-bottom: 8px; /* Adds spacing between list items */
+}
+
+.content a {
+        color: #0f0f0f; /* Blue links in content */
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #777676; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px; /* Adjust the height to fit your design */
+    width: auto; /* Keeps the aspect ratio */
+    margin-right: 20px; /* Adds space between the logo and the rest of the nav items */
+}
+
+footer {
+    background-color: #444444;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 16px;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    margin: 0;
+    border-top-left-radius: 0px; /* Round the top-left corner */
+    border-top-right-radius: 0px; /* Round the top-right corner */
+    border-bottom-left-radius: 20 !important;  /* Sharp bottom-left corner */
+    border-bottom-right-radius: 20 !important;  /* Sharp bottom-right corner */
+}
+
+
+    
+  
